@@ -1,0 +1,89 @@
+.barra-superior {
+  background-image: linear-gradient(to right, #112438, #0d4d6d, #0986ae, #03cbf6, #0ffff8);
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  display:flex;
+}
+
+.leyenda {
+  font-size: 1.5rem;
+  animation: mover 30s linear infinite;
+}
+
+@keyframes mover {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+.section1{
+  height: 457px;
+ 
+}
+
+h1,h2 {
+  line-height: 1.2
+}
+body {
+  line-height: 1;
+  background-color:#828c96 ;
+
+}
+/*para que el titulo quede del lado izquierdo y debajo de la barra superior*/
+.js-letter{
+  transform: translateX(0%) translateZ(0px);
+}
+
+.title {
+  color: #0e0348;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  transform: translate3d(0, -50%, 0);
+  z-index: 200;
+  margin-left: 9%
+}
+
+
+.titulo {
+  font-size: 6.5rem;
+  line-height: 1;
+  letter-spacing: 0.1em;
+  margin-bottom: 1.6rem;
+  font-family: "futura_m";
+  font-weight: normal;
+  text-shadow: 0 10px 30px rgba(2, 11, 22, 0.5);
+  display:flex;
+}
+
+.title .border {
+  display: inline-block;
+  margin-bottom: 3.2rem
+}
+
+.title .border span {
+  display: block;
+  width: 88px;
+  height: 4px;
+  border-radius: 5px;
+  background: #ff4d5a
+}
+/*barras debajo de los titulos*/
+.title .border span:first-child {
+  margin-bottom: 1.4rem
+}
+
+.title .border span:last-child {
+  margin-left: 54px
+}
+.campo{ text-align: center;
+   margin-left: 950px;
+   margin-top:90px;
+   display: inline-block;
+   display: flex;
+   flex-direction: column;
+  }
+  

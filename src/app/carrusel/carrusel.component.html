@@ -1,0 +1,21 @@
+<div id="GFG">
+	<div style="width:80%;">
+		<p-carousel [value]="images"  [circular]="true"
+					[responsiveOptions]="responsiveOptions">
+			<ng-template let-images pTemplate="item">
+				<div class="product-item" style="width:100%">
+					<div class="product-item-content">
+						<img [src]="images.previewImageSrc"
+							style="overflow: hidden;
+								background-repeat: no-repeat;"
+							width="100%" height="100%"
+							[alt]="images.alt"
+							[title]="images.title" alt="imagen">
+                            <div style="width:100%">
+                            <h3>Tu Consulta Es Bienvenida</h3></div>
+					</div>
+				</div>
+			</ng-template>
+		</p-carousel>
+	</div>
+</div>
