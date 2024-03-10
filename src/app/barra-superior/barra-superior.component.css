@@ -114,8 +114,6 @@ body {
  .campo{
     margin: 20px auto; /* Centrar el video */
     text-align: center;
-     width: 100%; /* El ancho del iframe ocupará el 100% del ancho del contenedor */
-    height: auto; /* La altura del iframe se ajustará automáticamente para mantener la proporción */
  }
   
 }
