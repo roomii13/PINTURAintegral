@@ -186,4 +186,7 @@ a{
  .item{
     flex-direction: column;
  }
+   .carta{
+      flex-direction: column;
+   }
 }
