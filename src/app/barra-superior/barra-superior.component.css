@@ -100,8 +100,8 @@ body {
   .titulo {
   font-size: 3.1rem;
   line-height: 1;
-  top:10%;
-  margin: 20px auto; 
+  top:12%;
+  margin-left:10px; 
   text-align: center;
 }
   .main{
@@ -109,7 +109,7 @@ body {
   }
 .campo iframe {
   width: 100%; /* El ancho del iframe ocupará el 100% del ancho del contenedor */
-  height: auto; /* La altura del iframe se ajustará automáticamente para mantener la proporción */
+  height: 250px; /* La altura del iframe se ajustará automáticamente para mantener la proporción */
 }
 
  .campo{
