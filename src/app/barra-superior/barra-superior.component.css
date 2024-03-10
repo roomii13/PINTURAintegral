@@ -103,6 +103,10 @@ body {
   top:45%;
   margin-left:0.5px; 
 }
+  .title h1{
+    margin-left:5px;
+  }
+  
   .main{
     flex-direction: column; 
   }
