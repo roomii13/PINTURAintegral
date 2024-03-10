@@ -1,4 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+/* Estilos para pantallas medianas */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%; /* o un valor menor que 768px */
+  }
+}
+
+/* Estilos para pantallas pequeñas */
+@media screen and (max-width: 480px) {
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
