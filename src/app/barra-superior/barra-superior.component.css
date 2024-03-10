@@ -103,11 +103,11 @@ body {
     top:20%;
 }
   .main{
-      flex-direction: column; 
+    flex-direction: column; 
   }
   
   campo {
-  top: 10%;
-  margin-left:50px;
+  top: 25%;
+  margin-left:10px;
   }
 }
