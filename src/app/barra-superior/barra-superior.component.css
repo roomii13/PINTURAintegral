@@ -107,8 +107,8 @@ body {
     flex-direction: column; 
   }
   iframe{
-      top: 10%;
-  margin-left:10px;
+   top: 10%;
+  margin-left:0%;
   }
   
   campo {
