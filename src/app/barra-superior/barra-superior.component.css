@@ -97,11 +97,16 @@ body {
     animation: none; /* Detener la animación */
   }
 
-  .titulo {
+  .title {
     position: static; /* Cambia la posición a estática para que el video no se superponga */
   }
+  .titulo {
+  font-size: 1rem;
+  line-height: 1;
+  display:flex;
+}
 
-  iframe {
+  campo {
     text-align: center; /* Centra el video */
     margin-top:200px;
   }
