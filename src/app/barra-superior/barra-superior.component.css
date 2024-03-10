@@ -94,7 +94,7 @@ body {
   }
 
   .leyenda {
-    font-size: 1rem; /* Reducir el tamaño de la fuente */
+    font-size: 0.5rem; /* Reducir el tamaño de la fuente */
   }
 
   .title {
@@ -105,11 +105,14 @@ body {
   line-height: 1;
     top:400px;
 }
+  .main{
+      flex-direction: column; 
+  }
   
   campo {
   text-align: center; /* Centra el video */
-   top:50px;
-   margin-left: 150px;
+   top:10px;
+   margin-right: 150px;
    margin-top:90px;
   }
 }
