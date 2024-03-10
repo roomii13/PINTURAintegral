@@ -94,11 +94,11 @@ body {
   }
 
   .leyenda {
-    font-size: 0.6rem; /* Reducir el tamaño de la fuente */
+    font-size: 1rem; /* Reducir el tamaño de la fuente */
   }
 
   .titulo {
-  font-size: 5rem;
+  font-size: 3.1rem;
   line-height: 1;
     top:20%;
 }
