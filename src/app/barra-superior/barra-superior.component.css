@@ -94,16 +94,16 @@ body {
   }
 
   .leyenda {
-    font-size: 3rem; /* Reducir el tamaño de la fuente */
+    font-size: 1rem; /* Reducir el tamaño de la fuente */
   }
 
   .title {
     position: static; /* Cambia la posición a estática para que el video no se superponga */
   }
   .titulo {
-  font-size: 3rem;
+  font-size: 1rem;
   line-height: 1;
-    top:150px;
+    top:200px;
 }
 .section1{
    flex-direction: column;
@@ -111,8 +111,8 @@ body {
   
   campo {
     text-align: center; /* Centra el video */
-     margin-top:100px;
-    margin-left:10px;
-     flex-direction: column;
+    top:250px;
+    left:10px;
+    flex-direction: column;
   }
 }
