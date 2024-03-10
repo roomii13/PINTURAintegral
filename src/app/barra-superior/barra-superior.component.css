@@ -100,7 +100,8 @@ body {
   .titulo {
   font-size: 3.1rem;
   line-height: 1;
-    top:20%;
+  top:15%;
+   margin-left: 6%;
 }
   .main{
     flex-direction: column; 
