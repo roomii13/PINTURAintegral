@@ -189,4 +189,9 @@ a{
    .carta{
       flex-direction: column;
    }
+  .contenedor{
+    margin-left:20px;
+      
+    
+  } 
 }
