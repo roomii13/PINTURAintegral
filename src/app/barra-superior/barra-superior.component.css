@@ -100,7 +100,7 @@ body {
   .titulo {
   font-size: 3.1rem;
   line-height: 1;
-  top:15%;
+  top:10%;
    margin-left: 1%;
 }
   .main{
@@ -113,6 +113,6 @@ body {
   
   campo {
   top: 10%;
-  margin-left:2%;
+  margin-left:15px;
   }
 }
