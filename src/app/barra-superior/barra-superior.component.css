@@ -89,7 +89,7 @@ body {
   
 @media screen and (max-width: 768px) {
   .barra-superior {
-    padding: 5px;
+    padding: 2px;
    flex-direction: column;
   }
 
@@ -103,7 +103,7 @@ body {
   .titulo {
   font-size: 1rem;
   line-height: 1;
-    top:200px;
+    top:400px;
 }
 .section1{
    flex-direction: column;
@@ -111,7 +111,7 @@ body {
   
   campo {
     text-align: center; /* Centra el video */
-    top:250px;
+    top:50px;
     left:10px;
     flex-direction: column;
   }
