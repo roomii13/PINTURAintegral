@@ -97,8 +97,11 @@ body {
     animation: none; /* Detener la animación */
   }
 
-  .campo {
-    margin: 20px auto; /* Centrar el video */
-    text-align: center;
+  .title {
+    position: static; /* Cambia la posición a estática para que el video no se superponga */
+  }
+
+  .video-container {
+    text-align: center; /* Centra el video */
   }
 }
