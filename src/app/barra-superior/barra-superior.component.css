@@ -87,3 +87,18 @@ body {
    flex-direction: column;
   }
   
+@media screen and (max-width: 768px) {
+  .barra-superior {
+    padding: 5px; /* Ajusta el espacio alrededor de la leyenda */
+  }
+
+  .leyenda {
+    font-size: 1rem; /* Reducir el tamaño de la fuente */
+    animation: none; /* Detener la animación */
+  }
+
+  .campo {
+    margin: 20px auto; /* Centrar el video */
+    text-align: center;
+  }
+}
