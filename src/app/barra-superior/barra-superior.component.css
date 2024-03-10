@@ -97,12 +97,11 @@ body {
     font-size: 1rem; /* Reducir el tamaño de la fuente */
   }
 
-  .titulo {
+  .titulo h1 {
   font-size: 3.1rem;
   line-height: 1;
   top:20%;
   margin-left:0.5px; 
-  text-align: center;
 }
   .main{
     flex-direction: column; 
