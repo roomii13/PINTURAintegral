@@ -94,11 +94,11 @@ body {
   }
 
   .leyenda {
-    font-size: 1.2rem; /* Reducir el tamaño de la fuente */
+    font-size: 0.6rem; /* Reducir el tamaño de la fuente */
   }
 
   .titulo {
-  font-size: 3rem;
+  font-size: 5rem;
   line-height: 1;
     top:20%;
 }
@@ -107,7 +107,7 @@ body {
   }
   
   campo {
-   margin: 50px;
-   top:90px;
+  top: 10%;
+    margin-left: 350px;
   }
 }
