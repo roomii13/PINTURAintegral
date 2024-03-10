@@ -105,14 +105,11 @@ body {
   line-height: 1;
     top:400px;
 }
-.section1{
-   flex-direction: column;
-}
   
   campo {
-    text-align: center; /* Centra el video */
-    top:50px;
-    left:10px;
-    flex-direction: column;
+  text-align: center; /* Centra el video */
+   top:50px;
+   margin-left: 150px;
+   margin-top:90px;
   }
 }
