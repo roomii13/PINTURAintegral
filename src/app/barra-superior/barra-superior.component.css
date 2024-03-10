@@ -89,7 +89,7 @@ body {
   
 @media screen and (max-width: 768px) {
   .barra-superior {
-    padding: 2px;
+    padding: 5px;
    flex-direction: column;
   }
 
@@ -97,9 +97,6 @@ body {
     font-size: 2rem; /* Reducir el tamaño de la fuente */
   }
 
-  .title {
-    position: static; /* Cambia la posición a estática para que el video no se superponga */
-  }
   .titulo {
   font-size: 1.2rem;
   line-height: 1;
@@ -110,8 +107,7 @@ body {
   }
   
   campo {
-  text-align: center; /* Centra el video */
-   margin-right: 50px;
+   margin: 50px;
    top:90px;
   }
 }
