@@ -94,16 +94,16 @@ body {
   }
 
   .leyenda {
-    font-size: 0.5rem; /* Reducir el tamaño de la fuente */
+    font-size: 0.2rem; /* Reducir el tamaño de la fuente */
   }
 
   .title {
     position: static; /* Cambia la posición a estática para que el video no se superponga */
   }
   .titulo {
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 1;
-    top:400px;
+    top:700px;
 }
   .main{
       flex-direction: column; 
