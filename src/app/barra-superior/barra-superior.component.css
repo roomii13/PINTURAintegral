@@ -90,7 +90,7 @@ body {
 @media screen and (max-width: 768px) {
   .barra-superior {
     padding: 5px;
-    
+   flex-direction: column;
   }
 
   .leyenda {
@@ -103,6 +103,7 @@ body {
   .titulo {
   font-size: 1rem;
   line-height: 1;
+    top:50px;
 }
 .section1{
    flex-direction: column;
