@@ -64,8 +64,8 @@ export class CarruselComponent {
     responsiveOptions: any[] = [
         {
             breakpoint: '768px',
-            numVisible: 2,
-            numScroll: 2
+            numVisible: 1,
+            numScroll: 1
         }
     ]
 
