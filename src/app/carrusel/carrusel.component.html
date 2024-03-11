@@ -19,12 +19,15 @@
 		</p-carousel>
 	</div>
 </div>
-<script>
-  // Selecciona el elemento ul con la clase p-carousel-indicators
-const carouselIndicators = document.querySelector('ul.p-carousel-indicators.p-reset');
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Selecciona el elemento ul con la clase p-carousel-indicators
+      const carouselIndicators = document.querySelector('ul.p-carousel-indicators.p-reset');
 
-// Si el elemento existe, elimínalo
-if (carouselIndicators) {
-  carouselIndicators.remove();
-}
-</script>
+      // Si el elemento existe, elimínalo
+      if (carouselIndicators) {
+        carouselIndicators.remove();
+      }
+    });
+  </script>
+
