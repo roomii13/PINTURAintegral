@@ -4,6 +4,10 @@ button.p-link {
 ul.p-carrusel-indicator{
   display: none;
 }
+ul.p-carousel-indicators.p-reset li:first-child {
+  display: none;
+}
+
 .product-image { 
 	width: 50%; 
 	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 
