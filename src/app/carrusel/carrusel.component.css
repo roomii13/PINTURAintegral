@@ -1,4 +1,6 @@
-
+.p-carousel .p-carousel-indicators {
+  display: none; /* Oculta los indicadores del carrusel */
+}
 .product-image { 
 	width: 50%; 
 	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 
