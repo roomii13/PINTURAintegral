@@ -20,14 +20,12 @@
 	</div>
 </div>
   <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      // Selecciona el elemento ul con la clase p-carousel-indicators
-      const carouselIndicators = document.querySelector('ul.p-carousel-indicators.p-reset');
-
-      // Si el elemento existe, elimínalo
-      if (carouselIndicators) {
-        carouselIndicators.remove();
-      }
-    });
+document.addEventListener('DOMContentLoaded', function() {
+  const firstIndicator = document.querySelector('ul.p-carousel-indicators.p-reset li:first-child');
+  if (firstIndicator) {
+    firstIndicator.remove();
+  }
+});
   </script>
+
 
