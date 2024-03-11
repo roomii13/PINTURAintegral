@@ -16,3 +16,13 @@ h3 {
 #GFG{
     margin-left:300px;
 }
+
+@media screen and (max-width: 480px) {
+  .product-image { 
+    width: 100%; /
+  }
+
+  #GFG{
+    margin-left: 5px;
+  }
+}
