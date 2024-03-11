@@ -1,4 +1,4 @@
-.p-carousel .p-carousel-indicators p.reset {
+ul .p-carousel .p-carousel-indicators p.reset {
   display: none; /* Oculta los indicadores del carrusel */
 }
 .product-image { 
