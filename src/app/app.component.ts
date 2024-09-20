@@ -14,5 +14,5 @@ import {CarruselComponent}   from './carrusel/carrusel.component';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'PinturaIntegral';
+  title = 'PinturaProfesional';
 }
