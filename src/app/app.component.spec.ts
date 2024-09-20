@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'PinturaIntegral' title`, () => {
+  it(`should have the 'PinturaProfesional' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('PinturaIntegral');
+    expect(app.title).toEqual('PinturaProfesional');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, PinturaIntegral');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, PinturaProfesional');
   });
 });
